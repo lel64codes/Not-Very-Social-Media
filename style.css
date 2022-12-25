@@ -1,0 +1,45 @@
+@keyframes Background {
+  0% {
+    font-family: Verdana;
+    font-size: 18px;
+    background-color: #3cd7e2;
+  }
+  25% {
+    font-family: Comic Sans;
+    font-size: 19px;
+    background-color: #e7abb4;
+  }
+  50% {
+    font-family: Verdana;
+    font-size: 18px;
+    background-color: #7e71ad;
+  }
+  75% {
+    font-family: Arial;
+    font-size: 19px;
+    background-color: #509e33;
+  }
+  100% {
+    font-family: Verdana;
+    font-size: 18px;
+    background-color: #dfd76d;
+  }
+}
+body {
+  animation-name: Background;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+h1 {
+  text-decoration: dashed underline blue;
+}
+.Controls {
+  position: fixed;
+  height: 200px;
+  bottom: 0%;
+  width: 100%;
+}
+#MessagesWrapper {
+  white-space: pre-wrap;
+}
