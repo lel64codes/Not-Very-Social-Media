@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Not Very Social Media</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1>Not-Very-Social Media!</h1>
+  <div id="MessagesWrapper"></div>
+  <div class="Controls">
+    <textarea id="CurrentMessage" placeholder="What do you want to say?"></textarea>
+    <br>
+    <button onclick="SendText();">Send Message As Text</button>
+    <button onclick="SendHTML();">Send Message As HTML</button>
+    <button onclick="SendJS();">Evaluate Message As Javascript</button>
+    <button onclick="Clear();">Clear Textbox</button>
+  </div>
+  <script src="bots.js" defer></script>
+  <script src="main.js" defer></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+</html>
