@@ -7,7 +7,7 @@ AssistanceBOT = {
 You will soon also notice that you can't change your username.  That is because I was too lazy to make that a feature.  It is also to ensure people do not use any rude usernames.  If you REALLY need to change it, you're can to do it with the browser console.
 You likely shall notice that the message controls hover above the messages.  You can read the messages that get covered by spamming a few more messages and scrolling down.
 Eventually you will see that your messages do not save.  That is since if you make the mistake of closing the tab unintentionally, you deserve to feel the consequences.  It is also becuase localStorage is a pain to debug since I am working solo on this project.
-You may wonder why anyone would use it has all these annoying features that drive users away.  The reason is because it will ensure the only users with the determination to use it often are the people loyal to the glorious principles behind how this site was designed.`);
+You may wonder why anyone would use it since has all these annoying features that drive users away.  The reason is because it will ensure the only users with the determination to use it often are the people loyal to the glorious principles behind how this site was designed.`);
     SendText("AssistanceBOT", `I am the AssistanceBOT.
 Activate me by entering "Help" as Text.
 There is also the SpammerBOT.
