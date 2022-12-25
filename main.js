@@ -12,7 +12,6 @@ function SendText(Username = "Likely_A_Human", Message = MessageBox.value) {
   NewElem.appendChild(InnerNewElem);
   AddMessagesHere.appendChild(NewElem);
   AddMessagesHere.appendChild(document.createElement("hr"));
-  console.log(Message)
   if (Message.toLowerCase() === "help") {
     AssistanceBOT.Activate();
   }
@@ -38,7 +37,6 @@ function SendJS(Code = MessageBox.value) {
   }
   catch {
     alert("JS Error");
-    return;
   }
 }
 function Clear() {
